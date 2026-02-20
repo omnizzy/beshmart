@@ -4,5 +4,5 @@ CREATE TABLE t_orders (
                           sku_code VARCHAR(255),
                           price DECIMAL(19, 2),
                           quantity INT(11),
-                          PRIMARY KEY (id)
+                          PRIMARY KEY ('id')
 );
